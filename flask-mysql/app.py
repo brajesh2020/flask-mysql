@@ -8,7 +8,7 @@ app = Flask(__name__)
 def hello_world():
     counter = Counter()
     counter.increment()
-    return 'Hello, World! I have been visited {0} times\n'.format(counter.get())
+    return 'Hello, world! I have been visited {0} times\n'.format(counter.get())
 
 class Counter():
     def __init__(self):
